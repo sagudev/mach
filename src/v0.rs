@@ -18,20 +18,24 @@ pub enum Lang {
     C,
     Go,
     Mozilla,
-    None
+    None,
 }
 
 impl From<String> for Lang {
-    fn from(x: String) -> Self { match x.to_lowercase().as_str() {
-        "rust" => Lang::Rust,
-        "c" => Lang::C,
-        "cpp" => Lang::Cpp,
-        _ => Lang::None,
-    } }
+    fn from(x: String) -> Self {
+        match x.to_lowercase().as_str() {
+            "rust" => Lang::Rust,
+            "c" => Lang::C,
+            "cpp" => Lang::Cpp,
+            _ => Lang::None,
+        }
+    }
 }
 
 impl Default for Lang {
-    fn default() -> Self { Lang::None }
+    fn default() -> Self {
+        Lang::None
+    }
 }
 
 impl DD {
@@ -48,7 +52,7 @@ impl DD {
             },
             _ => DD {
                 ..Default::default()
-            }
+            },
         }
     }
 }

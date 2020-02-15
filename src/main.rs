@@ -1,6 +1,6 @@
+use serde_json::Value;
 use std::fs::File;
 use std::io::prelude::*;
-use serde_json::Value;
 mod v0;
 
 fn main() {
