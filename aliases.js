@@ -1,0 +1,15 @@
+var ALIASES = {};
+ALIASES["argh"] = {};
+ALIASES["argh_derive"] = {};
+ALIASES["argh_shared"] = {};
+ALIASES["heck"] = {};
+ALIASES["itoa"] = {};
+ALIASES["mach"] = {};
+ALIASES["proc_macro2"] = {};
+ALIASES["quote"] = {};
+ALIASES["ryu"] = {};
+ALIASES["serde"] = {};
+ALIASES["serde_json"] = {};
+ALIASES["syn"] = {};
+ALIASES["unicode_segmentation"] = {};
+ALIASES["unicode_xid"] = {};
