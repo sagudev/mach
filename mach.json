@@ -1,8 +1,0 @@
-{
-    "version": 0,
-    "pre": "rust",
-    "env": {
-        "SHELL": "/bin/bash"
-    },
-    "bootstrap": ["sudo apt update", "sudo apt install firefox"]
-}

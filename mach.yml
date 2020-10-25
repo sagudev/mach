@@ -1,0 +1,11 @@
+ver: 0 # ver
+pre: rust
+env:
+    shell: /bin/bash
+commands:
+    bootstrap: |
+        sudo apt update
+        sudo apt install firefox
+    run:
+        cmd:
+        hlp:

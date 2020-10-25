@@ -1,6 +1,16 @@
 use std::fmt::Debug;
 
+/* /// reserved keywords
+pub enum Lang {
+    hlp,
+    command,
+    C,
+    Mozilla,
+    None,
+}
+
 #[derive(Default)]
+/// Reserved keywords
 pub struct DD {
     pub bootstrap: Option<String>,
     pub build: Option<String>,
@@ -16,7 +26,6 @@ pub enum Lang {
     Rust,
     Cpp,
     C,
-    Go,
     Mozilla,
     None,
 }
@@ -27,6 +36,7 @@ impl From<String> for Lang {
             "rust" => Lang::Rust,
             "c" => Lang::C,
             "cpp" => Lang::Cpp,
+            "c++" => Lang::Cpp,
             _ => Lang::None,
         }
     }
@@ -55,4 +65,9 @@ impl DD {
             },
         }
     }
+}
+ */
+
+pub fn mach(data: &yaml_rust::yaml::Yaml) {
+    
 }
