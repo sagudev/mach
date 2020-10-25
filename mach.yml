@@ -1,11 +1,21 @@
 ver: 0 # ver
+name: test
+help: help string
 pre: rust
 env:
     shell: /bin/bash
 commands:
-    bootstrap: |
-        sudo apt update
-        sudo apt install firefox
     run:
         cmd:
         hlp:
+    doc:
+        open:
+            cmd:
+            hlp:
+        cmd:
+        hlp:
+bootstrap: |
+    sudo apt update
+    sudo apt install firefox
+build: |
+
